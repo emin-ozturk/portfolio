@@ -13,6 +13,9 @@ module.exports = {
         'bg1': '#14141e',
         'bg2': '#1a1c29',
       },
+      fontSize: {
+        s: '0.75rem',
+      }
     },
   },
   plugins: [],
