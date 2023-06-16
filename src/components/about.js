@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="w-full h-full bg-bg1 px-24 py-16">
+        <div className="w-full h-full bg-bg1 px-24 py-10">
             <span className="flex flex-1 justify-center text-white text-3xl font-bold mb-10">HAKKIMDA</span>
             <div className="text-slate-500 text-justify">
                 Node.js, React.js ve MongoDB kullanarak web tabanlı portallar geliştirdim. Bu portallar, firmaların ihtiyaçlarını karşılamak için özelleştirilmiş çözümler sunmaktadır.
