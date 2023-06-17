@@ -8,9 +8,9 @@ const Rating = (props) => {
         const listItems = [];
         for (let i = 0; i < 5; i++) {
             if (i < rating) {
-                listItems.push(<AiFillStar className="w-3 h-3 text-yellow-500" />);
+                listItems.push(<AiFillStar className="w-3 h-3 text-yellow-500" key={i} />);
             } else {
-                listItems.push(<AiFillStar className="w-3 h-3" />);
+                listItems.push(<AiFillStar className="w-3 h-3" key={i} />);
             }
         }
         return listItems;
