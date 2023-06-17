@@ -57,7 +57,7 @@ function App() {
             <a href='https://github.com/emin-ozturk' target='_blank' rel="noreferrer">
               <FaGithub className='w-6 h-6 text-gray-500 hover:text-white mr-3' />
             </a>
-            <a href='https://www.linkedin.com/in/emin-öztürk' target='_blank' rel="noreferrer">
+            <a href='https://play.google.com/store/apps/dev?id=6511245882117047076' target='_blank' rel="noreferrer">
               <FaGooglePlay className='w-6 h-6 text-gray-500 hover:text-white' />
             </a>
           </div>
