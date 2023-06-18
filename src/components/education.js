@@ -9,6 +9,7 @@ const Education = () => {
                     <span className="font-bold text-white">İstanbul Arel Üniversitesi</span>
                     <span>Bilgisayar Mühendisliği</span>
                     <span>Not: 3.85</span>
+                    <span>Yüksek Onur Belgesi</span>
                     <span>[2020-2022]</span>
                 </div>
 
@@ -16,6 +17,7 @@ const Education = () => {
                     <span className="font-bold text-white">İstanbul Beykent Üniversitesi</span>
                     <span>Bilgisayar Programcılığı</span>
                     <span>Not: 3.98 (Bölüm Birinciliği)</span>
+                    <span>Yüksek Onur Belgesi</span>
                     <span>[2018-2020]</span>
                 </div>
             </div>
