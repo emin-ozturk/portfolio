@@ -16,7 +16,7 @@ const Certificates = () => {
                     className="flex flex-1">
                     <div className="flex flex-col flex-1 justify-center items-center bg-bg1 rounded-md p-4">
                         <img src={keras} alt="" className="w-20 h-20 mb-1 p-1 rounded-xl" />
-                        <span className="w-20 text-s text-center">Keras İle Derin Öğrenmeye Giriş</span>
+                        <span className="w-28 text-s text-center">Keras İle Derin Öğrenmeye Giriş</span>
 
                     </div>
                 </a>
@@ -27,7 +27,7 @@ const Certificates = () => {
                     className="flex flex-1">
                     <div className="flex flex-col flex-1 justify-center items-center bg-bg1 rounded-md p-4">
                         <img src={cpp} alt="" className="w-20 h-20 mb-1" />
-                        <span className="w-20 text-s text-center">C++ ile Programlamaya Giriş</span>
+                        <span className="w-28 text-s text-center">C++ ile Programlamaya Giriş</span>
                     </div>
                 </a>
                 <a
@@ -37,7 +37,7 @@ const Certificates = () => {
                     className="flex flex-1">
                     <div className="flex flex-col flex-1 justify-center items-center bg-bg1 rounded-md p-4">
                         <img src={designpattern} alt="" className="w-20 h-20 mb-1 p-1 rounded-xl" />
-                        <span className="w-20 text-s text-center">Yazılım Tasarım Desenleri</span>
+                        <span className="w-28 text-s text-center">Yazılım Tasarım Desenleri</span>
                     </div>
                 </a>
                 <a
@@ -47,7 +47,17 @@ const Certificates = () => {
                     className="flex flex-1">
                     <div className="flex flex-col flex-1 justify-center items-center bg-bg1 rounded-md p-4">
                         <img src={python} alt="" className="w-20 h-20 mb-1 p-1 rounded-xl" />
-                        <span className="w-20 text-s text-center">Introduction to Python</span>
+                        <span className="w-28 text-s text-center">Introduction to Python</span>
+                    </div>
+                </a>
+                <a
+                    href="https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=eK1hyzKGm4"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex flex-1">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-bg1 rounded-md p-4">
+                        <img src={python} alt="" className="w-20 h-20 mb-1 p-1 rounded-xl" />
+                        <span className="w-28 text-s text-center">Python ile Makine Öğrenmesi</span>
                     </div>
                 </a>
             </div>
