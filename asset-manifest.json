@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.89f90cb4.css",
-    "main.js": "/portfolio/static/js/main.0359816e.js",
+    "main.css": "/portfolio/static/css/main.d5c79de1.css",
+    "main.js": "/portfolio/static/js/main.640ddee4.js",
     "static/media/futuristic.jpg": "/portfolio/static/media/futuristic.26f7ce05ba2ffbe24857.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.3549d9e451d7abb96934.png",
@@ -13,11 +13,11 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.31c0e97d5776c294d370.png",
     "static/media/python.png": "/portfolio/static/media/python.91fe66c93d19d67edfc8.png",
     "index.html": "/portfolio/index.html",
-    "main.89f90cb4.css.map": "/portfolio/static/css/main.89f90cb4.css.map",
-    "main.0359816e.js.map": "/portfolio/static/js/main.0359816e.js.map"
+    "main.d5c79de1.css.map": "/portfolio/static/css/main.d5c79de1.css.map",
+    "main.640ddee4.js.map": "/portfolio/static/js/main.640ddee4.js.map"
   },
   "entrypoints": [
-    "static/css/main.89f90cb4.css",
-    "static/js/main.0359816e.js"
+    "static/css/main.d5c79de1.css",
+    "static/js/main.640ddee4.js"
   ]
 }
