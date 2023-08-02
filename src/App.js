@@ -43,12 +43,11 @@ function App() {
               İletişim
             </div>
           </div>
-          
-          <div className='hover:bg-yellow-500 py-2 px-3 rounded-lg text-sm cursor-pointer'>
-            <a href={CV} download="Özgeçmiş" target="_blank" rel="noreferrer">
-              Özgeçmiş
+          <a href={CV} download="Özgeçmiş" target="_blank" rel="noreferrer">
+            <div className='hover:bg-yellow-500 py-2 px-3 rounded-lg text-sm cursor-pointer'>
+                Özgeçmiş
+            </div>
             </a>
-          </div>
         </div>
 
         <div className="flex-1 flex justify-center items-center flex-col">
