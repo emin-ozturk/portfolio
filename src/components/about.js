@@ -12,37 +12,29 @@ const About = () => {
                 Java programlama dilini kullanarak Android işletim sistemi için mobil uygulamalar geliştirdim. Node.js ile hazırladığım API'ları bu uygulamalara entegre ederek, firmaların ihtiyaçlarına uygun çözümler sundum. Kullanıcıların ihtiyaçlarını karşılamak için uygulamaların performansı, tasarımı ve kullanılabilirliği gibi konulara özel önem verdim.
                 Ayrıca, temel seviyede Python bilgisi kullanarak makine öğrenmesi alanında çalışmalar yaptım. Bu çalışmalar, veri analizi ve tahmin modelleri oluşturma gibi konuları içeriyordu. Python ve makine öğrenmesi konusunda deneyim kazanarak teknik becerilerimi geliştirdim.
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5">
-                <div className="h-fit flex flex-row justify-center items-center m-3 p-3">
-                    <FiCode className="w-1/6 h-fit text-slate-500 m-3"/>
-                    <div className="flex flex-col">
-                        <span className="font-bold text-slate-500">Web Sitesi</span>
-                        <span className="text-slate-500 text-sm">8 Proje</span>
-                    </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 mt-5 text-center">
+                <div className="h-fit flex flex-col justify-center items-center mb-5">
+                    <FiCode className="w-10 h-10 text-slate-500 m-3"/>
+                    <span className="font-bold text-slate-500">Web Sitesi</span>
+                    <span className="text-slate-500 text-sm">8 Proje</span>
                 </div>
                 
-                <div className="h-fit flex flex-row justify-center items-center m-3 p-3">
-                    <AiFillAndroid className="w-1/6 h-fit text-slate-500 m-3"/>
-                    <div className="flex flex-col">
-                        <span className="font-bold text-slate-500">Android Uygulama</span>
-                        <span className="text-slate-500 text-sm">6 Proje</span>
-                    </div>
+                <div className="h-fit flex flex-col justify-center items-center mb-5">
+                    <AiFillAndroid className="w-10 h-10 text-slate-500 m-3"/>
+                    <span className="font-bold text-slate-500">Android Uygulama</span>
+                    <span className="text-slate-500 text-sm">6 Proje</span>
                 </div>
 
-                <div className="h-fit flex flex-row justify-center items-center m-3 p-3">
-                    <BiAnalyse className="w-1/6 h-fit text-slate-500 m-3"/>
-                    <div className="flex flex-col">
-                        <span className="font-bold text-slate-500">Makine Öğrenmesi</span>
-                        <span className="text-slate-500 text-sm">6 Proje</span>
-                    </div>
+                <div className="h-fit flex flex-col justify-center items-center mb-5">
+                    <BiAnalyse className="w-10 h-10 text-slate-500 m-3"/>
+                    <span className="font-bold text-slate-500">Makine Öğrenmesi</span>
+                    <span className="text-slate-500 text-sm">5 Proje</span>
                 </div>
 
-                <div className="h-fit flex flex-row justify-center items-center m-3 p-3">
-                    <FaGooglePlay className="w-1/6 h-fit text-slate-500 m-3"/>
-                    <div className="flex flex-col">
-                        <span className="font-bold text-slate-500">Yayınlanmış Uygulama</span>
-                        <span className="text-slate-500 text-sm">3 Proje</span>
-                    </div>
+                <div className="h-fit flex flex-col justify-center items-center mb-5">
+                    <FaGooglePlay className="w-10 h-10 text-slate-500 m-3"/>
+                    <span className="font-bold text-slate-500">Yayınlanmış Uygulama</span>
+                    <span className="text-slate-500 text-sm">3 Proje</span>
                 </div>
             </div>
         </div>

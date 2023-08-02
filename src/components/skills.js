@@ -16,37 +16,37 @@ const Skills = () => {
             <span className="flex flex-1 justify-center text-neutral-950 text-3xl font-bold mb-10">Beceriler</span>
             <div className="text-slate-500 grid grid-cols-1 sm:grid-cols-2 w-full ">
 
-                <div className="flex flex-col text-left">
+                <div className="flex flex-col text-left sm:mr-5">
                     <div className="flex flex-row w-full my-3">
-                        <img src={nodejs} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={nodejs} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Node.js</p>
                             <Rating rating={3} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={mongodb} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={mongodb} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>MongoDB</p>
                             <Rating rating={3} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={react} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={react} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>React</p>
                             <Rating rating={2} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={python} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={python} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Python</p>
                             <Rating rating={2} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={javascript} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={javascript} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Javascript</p>
                             <Rating rating={2} />
@@ -54,30 +54,30 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col text-left">
+                <div className="flex flex-col text-left sm:ml-5">
                     <div className="flex flex-row w-full my-3">
-                        <img src={java} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={java} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Java</p>
                             <Rating rating={3} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={android} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={android} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Android</p>
                             <Rating rating={3} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={cpp} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={cpp} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>C++</p>
                             <Rating rating={2} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-3">
-                        <img src={tailwind} alt="" className="w-12 h-12 mx-6 mb-3 " />
+                        <img src={tailwind} alt="" className="w-12 h-12 mr-6 mb-3 " />
                         <div className="w-full">
                             <p>Tailwind</p>
                             <Rating rating={3} />
