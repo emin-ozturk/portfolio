@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d5c79de1.css",
-    "main.js": "/portfolio/static/js/main.640ddee4.js",
-    "static/media/futuristic.jpg": "/portfolio/static/media/futuristic.26f7ce05ba2ffbe24857.jpg",
+    "main.css": "/portfolio/static/css/main.d94b34c7.css",
+    "main.js": "/portfolio/static/js/main.45e61ee0.js",
+    "static/media/nebula.jpg": "/portfolio/static/media/nebula.888799d61684ae86f014.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.96e6fd8b0757d7205c95.pdf",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.3549d9e451d7abb96934.png",
     "static/media/java.png": "/portfolio/static/media/java.4e332879122f609caa57.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.cf7522f436d6510da302.png",
@@ -13,11 +14,11 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.31c0e97d5776c294d370.png",
     "static/media/python.png": "/portfolio/static/media/python.91fe66c93d19d67edfc8.png",
     "index.html": "/portfolio/index.html",
-    "main.d5c79de1.css.map": "/portfolio/static/css/main.d5c79de1.css.map",
-    "main.640ddee4.js.map": "/portfolio/static/js/main.640ddee4.js.map"
+    "main.d94b34c7.css.map": "/portfolio/static/css/main.d94b34c7.css.map",
+    "main.45e61ee0.js.map": "/portfolio/static/js/main.45e61ee0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5c79de1.css",
-    "static/js/main.640ddee4.js"
+    "static/css/main.d94b34c7.css",
+    "static/js/main.45e61ee0.js"
   ]
 }
