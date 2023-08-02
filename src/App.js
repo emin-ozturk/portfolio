@@ -5,6 +5,7 @@ import Contact from './components/contact';
 import Education from './components/education';
 import Skills from './components/skills';
 import { FaGithub, FaGooglePlay, FaLinkedin } from 'react-icons/fa';
+import CV from './CV.pdf';
 
 function App() {
   const aboutRef = useRef(null);
@@ -24,6 +25,7 @@ function App() {
           <div className="font-bold text-2xl mb-2 md:mb-0">
             Portfolio
           </div>
+
           <div className="flex flex-row text-white text-sm">
             <div className="mr-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(aboutRef)}>
               Hakkımda
@@ -40,6 +42,12 @@ function App() {
             <div className="ml-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(contactRef)}>
               İletişim
             </div>
+          </div>
+          
+          <div className='hover:bg-yellow-500 py-2 px-3 rounded-lg text-sm cursor-pointer'>
+            <a href={CV} download="Özgeçmiş" target="_blank" rel="noreferrer">
+              Özgeçmiş
+            </a>
           </div>
         </div>
 

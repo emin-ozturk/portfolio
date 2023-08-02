@@ -79,7 +79,7 @@ const Skills = () => {
                     <div className="flex flex-row w-full my-3">
                         <img src={tailwind} alt="" className="w-12 h-12 mx-6 mb-3 " />
                         <div className="w-full">
-                            <p>tailwind</p>
+                            <p>Tailwind</p>
                             <Rating rating={3} />
                         </div>
                     </div>
