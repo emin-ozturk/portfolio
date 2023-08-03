@@ -14,7 +14,7 @@ const Certificates = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1">
-                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-lg">
                         <img src={keras} alt="" className="w-16 h-16 mb-1 p-1 rounded-xl" />
                         <span className="w-28 text-s text-center">Keras İle Derin Öğrenmeye Giriş</span>
 
@@ -25,7 +25,7 @@ const Certificates = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1">
-                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-lg">
                         <img src={cpp} alt="" className="w-16 h-16 mb-1" />
                         <span className="w-28 text-s text-center">C++ ile Programlamaya Giriş</span>
                     </div>
@@ -35,7 +35,7 @@ const Certificates = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1">
-                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-lg">
                         <img src={designpattern} alt="" className="w-16 h-16 mb-1 p-1 rounded-xl" />
                         <span className="w-28 text-s text-center">Yazılım Tasarım Desenleri</span>
                     </div>
@@ -45,7 +45,7 @@ const Certificates = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1">
-                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-lg">
                         <img src={python} alt="" className="w-16 h-16 mb-1 p-1 rounded-xl" />
                         <span className="w-28 text-s text-center">Introduction to Python</span>
                     </div>
@@ -55,7 +55,7 @@ const Certificates = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1">
-                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200">
+                    <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-lg">
                         <img src={python} alt="" className="w-16 h-16 mb-1 p-1 rounded-xl" />
                         <span className="w-28 text-s text-center">Python ile Makine Öğrenmesi</span>
                     </div>
