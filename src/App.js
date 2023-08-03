@@ -54,7 +54,7 @@ function App() {
           <div className="text-white text-5xl font-bold">
             Emin Öztürk
           </div>
-          <div className="text-white text-xl mt-3">
+          <div className="text-white text-xl mt-3 font-serif">
             Yazılım Mühendisi
           </div>
           <div className='flex flex-row mt-5'>

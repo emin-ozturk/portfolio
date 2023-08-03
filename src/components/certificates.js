@@ -16,7 +16,7 @@ const Certificates = () => {
                     className="flex flex-1">
                     <div className="flex flex-col flex-1 justify-center items-center bg-white rounded-md p-4 hover:bg-gray-200 shadow-md">
                         <img src={keras} alt="" className="w-16 h-16 mb-1 p-1 rounded-xl" />
-                        <span className="w-28 text-s text-center">Keras İle Derin Öğrenmeye Giriş</span>
+                        <span className="w-28 text-s text-center">Keras ile Derin Öğrenmeye Giriş</span>
 
                     </div>
                 </a>
