@@ -23,7 +23,7 @@ const About = () => {
             teknik becerilerimi geliştirmeme yardımcı oldu.
 
             </div>
-            <div className="w-full grid grid-cols-2 sm:grid-cols-4 mt-5 text-center bg-gray-200">
+            <div className="w-full grid grid-cols-2 sm:grid-cols-4 mt-5 text-center bg-slate-200">
                 <div className="h-fit flex flex-col justify-center items-center my-5">
                     <FiCode className="w-8 h-8 text-slate-500 mb-3"/>
                     <span className="font-bold text-slate-500 text-sm">Web Sitesi</span>

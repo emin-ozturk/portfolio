@@ -23,33 +23,33 @@ function App() {
   return (
     <div className="w-full h-full overflow-auto">
       <div className="w-full h-full bg-nebula bg-cover bg-center flex flex-col px-8 sm:px-20">
-        <div className="w-full flex justify-between text-white py-8 items-center flex-col md:flex-row">
-          <div className="font-bold text-2xl mb-2 md:mb-0">
+        <div className="w-full flex justify-between text-white py-8 items-center flex-col lg:flex-row">
+          <div className="font-bold text-2xl mb-2 xl:mb-0">
             Portfolio
           </div>
 
           <div className="flex flex-row text-white text-sm">
-            <div className="mr-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(aboutRef)}>
+            <div className="mr-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(aboutRef)}>
               Hakkımda
             </div>
-            <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(educationRef)}>
+            <div className="mx-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(educationRef)}>
               Eğitim
             </div>
-            <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(skillsRef)}>
+            <div className="mx-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(skillsRef)}>
               Beceriler
             </div>
-            <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(certificatesRef)}>
+            <div className="mx-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(certificatesRef)}>
               Sertifikalar
             </div>
-            <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(projectsRef)}>
+            <div className="mx-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(projectsRef)}>
               Projeler
             </div>
-            <div className="ml-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(contactRef)}>
+            <div className="ml-2 cursor-pointer hover:border-b border-blue-600" onClick={() => handleClick(contactRef)}>
               İletişim
             </div>
           </div>
           <a href={CV} download="Özgeçmiş" target="_blank" rel="noreferrer">
-            <div className='hover:bg-yellow-500 py-2 px-3 rounded-lg text-sm cursor-pointer'>
+            <div className='hover:bg-gradient-to-r from-cyan-400 to-blue-600 py-2 px-3 rounded-lg text-sm cursor-pointer'>
                 Özgeçmiş
             </div>
             </a>
