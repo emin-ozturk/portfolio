@@ -3,6 +3,7 @@ import About from './components/about';
 import Certificates from './components/certificates';
 import Contact from './components/contact';
 import Education from './components/education';
+import Projects from './components/projects';
 import Skills from './components/skills';
 import { FaGithub, FaGooglePlay, FaLinkedin } from 'react-icons/fa';
 import CV from './CV.pdf';
@@ -13,6 +14,7 @@ function App() {
   const skillsRef = useRef(null);
   const certificatesRef = useRef(null);
   const contactRef = useRef(null);
+  const projectsRef = useRef(null);
 
   const handleClick = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -38,6 +40,9 @@ function App() {
             </div>
             <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(certificatesRef)}>
               Sertifikalar
+            </div>
+            <div className="mx-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(projectsRef)}>
+              Projeler
             </div>
             <div className="ml-2 cursor-pointer hover:text-yellow-500" onClick={() => handleClick(contactRef)}>
               İletişim
@@ -76,6 +81,7 @@ function App() {
       <div ref={educationRef}><Education /></div>
       <div ref={skillsRef}><Skills /></div>
       <div ref={certificatesRef}><Certificates /></div>
+      <div ref={projectsRef}><Projects /></div>
       <div ref={contactRef}><Contact /></div>
 
     </div>
