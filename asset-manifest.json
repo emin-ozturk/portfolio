@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9df1873b.css",
-    "main.js": "/portfolio/static/js/main.1192ff48.js",
+    "main.css": "/portfolio/static/css/main.a5904022.css",
+    "main.js": "/portfolio/static/js/main.0e17cc61.js",
     "static/media/nebula.jpg": "/portfolio/static/media/nebula.888799d61684ae86f014.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.6170bacefd8a1f69ca74.png",
     "static/media/CV.pdf": "/portfolio/static/media/CV.96e6fd8b0757d7205c95.pdf",
@@ -13,12 +13,13 @@
     "static/media/cpp.png": "/portfolio/static/media/cpp.1240ce157b70fb399c6c.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.31c0e97d5776c294d370.png",
     "static/media/python.png": "/portfolio/static/media/python.91fe66c93d19d67edfc8.png",
+    "static/media/code.png": "/portfolio/static/media/code.88138c95a4ebbf6a8b10.png",
     "index.html": "/portfolio/index.html",
-    "main.9df1873b.css.map": "/portfolio/static/css/main.9df1873b.css.map",
-    "main.1192ff48.js.map": "/portfolio/static/js/main.1192ff48.js.map"
+    "main.a5904022.css.map": "/portfolio/static/css/main.a5904022.css.map",
+    "main.0e17cc61.js.map": "/portfolio/static/js/main.0e17cc61.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df1873b.css",
-    "static/js/main.1192ff48.js"
+    "static/css/main.a5904022.css",
+    "static/js/main.0e17cc61.js"
   ]
 }
