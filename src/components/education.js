@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
     return (
-        <div className="w-full h-full bg-bg3 px-10 md:px-24 py-10 flex flex-col items-center">
+        <div className="w-full h-full bg-bg3 px-12 md:px-12 lg:px-44 py-10 flex flex-col items-center">
             <span className="flex flex-1 justify-center text-neutral-950 text-3xl font-bold mb-10">Eğitim</span>
             <div className="text-slate-500 grid grid-cols-1 sm:grid-cols-2 w-full lg:w-3/4 gap-4">
                 <div className="flex flex-col bg-white p-4 rounded-md text-left shadow-md">
