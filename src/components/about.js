@@ -18,10 +18,8 @@ const About = () => {
             Aynı zamanda Java ile Android platformunda mobil uygulama geliştirme konusunda deneyimim bulunuyor.
 
             Geliştirdiğim projelerde kullanıcıların ihtiyaçlarına yönelik çözümler sunarken performans, tasarım ve 
-            kullanılabilirliğe özen gösteriyorum. Bununla birlikte, Python ile makine öğrenmesi üzerinde çalışıyorum. 
-            Geliştirdiğim projeler. Python ve makine öğrenimi alanındaki çalışmalarım, 
-            teknik becerilerimi geliştirmeme yardımcı oldu.
-
+            kullanılabilirliğe özen gösteriyorum.  Bununla birlikte, Python ile makine öğrenmesi üzerinde çalışıyorum. 
+            Bu alanında geliştirdiğim projeler teknik becerilerimi geliştirmeme yardımcı olmaktadır.
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-4 mt-5 text-center bg-slate-200">
                 <div className="h-fit flex flex-col justify-center items-center my-5">
