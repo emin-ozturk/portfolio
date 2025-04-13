@@ -41,9 +41,6 @@ const Education = () => {
                         <span className="text-sm text-gray-400">Yüksek Onur Belgesi</span>
                     </div>
                 </div>
-                    
-
-                    
             </div>
         </div>
     )
