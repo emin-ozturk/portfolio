@@ -26,25 +26,25 @@ const Skills = () => {
                     <div className="flex flex-row w-full my-5 items-center">
                         <img src={mongodb} alt="" className="w-10 h-10 mr-6" />
                         <div className="w-full">
-                            <Rating rating={55} />
+                            <Rating rating={60} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-5 items-center">
                         <img src={react} alt="" className="w-10 h-10 mr-6" />
                         <div className="w-full">
-                            <Rating rating={45} />
+                            <Rating rating={60} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-5 items-center">
                         <img src={python} alt="" className="w-10 h-10 mr-6" />
                         <div className="w-full">
-                            <Rating rating={50} />
+                            <Rating rating={60} />
                         </div>
                     </div>
                     <div className="flex flex-row w-full my-5 items-center">
                         <img src={javascript} alt="" className="w-10 h-10 mr-6" />
                         <div className="w-full">
-                            <Rating rating={60} />
+                            <Rating rating={70} />
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                     <div className="flex flex-row w-full my-5 items-center">
                         <img src={tailwind} alt="" className="w-10 h-10 mr-6" />
                         <div className="w-full">
-                            <Rating rating={60} />
+                            <Rating rating={80} />
                         </div>
                     </div>
                     

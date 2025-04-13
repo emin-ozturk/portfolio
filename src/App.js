@@ -5,7 +5,7 @@ import Contact from './components/contact';
 import Education from './components/education';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import { FaGithub, FaGooglePlay, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaGooglePlay, FaKaggle, FaLinkedin } from 'react-icons/fa';
 import CV from './CV.pdf';
 
 function App() {
@@ -62,15 +62,18 @@ function App() {
           <div className="text-white text-xl mt-3">
             Yazılım Mühendisi
           </div>
-          <div className='flex flex-row mt-5'>
+          <div className='flex flex-row mt-5 gap-5'>
             <a href='https://www.linkedin.com/in/emin-öztürk' target='_blank' rel="noreferrer">
-              <FaLinkedin className='w-6 h-6 text-gray-500 hover:text-white mr-5' />
+              <FaLinkedin className='w-6 h-6 text-gray-500 hover:text-white' />
             </a>
             <a href='https://github.com/emin-ozturk' target='_blank' rel="noreferrer">
-              <FaGithub className='w-6 h-6 text-gray-500 hover:text-white mr-5' />
+              <FaGithub className='w-6 h-6 text-gray-500 hover:text-white' />
             </a>
             <a href='https://play.google.com/store/apps/dev?id=6511245882117047076' target='_blank' rel="noreferrer">
               <FaGooglePlay className='w-6 h-6 text-gray-500 hover:text-white' />
+            </a>
+            <a href='https://www.kaggle.com/eminztrk' target='_blank' rel="noreferrer">
+              <FaKaggle className='w-6 h-6 text-gray-500 hover:text-white' />
             </a>
           </div>
 

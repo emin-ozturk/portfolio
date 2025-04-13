@@ -10,7 +10,7 @@ const Rating = (props) => {
                 <div className = "h-1.5 bg-gradient-to-r from-cyan-300 to-blue-600 rounded-lg" style={{width: width}}></div>
             </div>
             <span className="ml-4 text-slate-950 font-bold">
-                { width }
+                {/* { width } */}
             </span>
         </div>
     )
